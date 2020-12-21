@@ -124,7 +124,7 @@ var Client = /*#__PURE__*/function () {
 
     this.config.rpcConfig.baseURL = this.config.node;
     this.rpcClient = new _rpcClient.RpcClient(this.config.rpcConfig);
-    this.eventListener = new _eventListener.EventListener(this); // Modules
+    //this.eventListener = new _eventListener.EventListener(this); // Modules
 
     this.token = new modules.Token(this);
     this.utils = new modules.Utils(this);
